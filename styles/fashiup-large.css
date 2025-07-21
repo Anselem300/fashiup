@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  #main-nav {
+    max-height: none;
+    overflow: visible;
+    display: flex; /* or flex */
+    background: transparent;
+    box-shadow: none;
+  }
+
+  #main-nav ul {
+    display: flex;
+    gap: 2rem; /* spacing between nav items */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  #main-nav li {
+    margin: 0;
+  }
+
+  #main-nav li a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .has-submenu:hover > .child-menu {
+    position: absolute;
+    background: white;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+  }
+
+  .wrapper {
+    justify-content: space-between;
+    align-items: center;
+  }
+}

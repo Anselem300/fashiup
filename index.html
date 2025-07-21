@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Fashiup</title>
+    <meta name="author" content="Anselem Samuel">
+    <meta name="description" content="This the home page of Fashiup, a women's stylish clothes collection store.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="scripts/fashiup.js" type="module"></script>
+    <link rel="stylesheet" href="styles/fashiup.css">
+    <link rel="stylesheet" href="styles/fashiup-large.css">
+    <link rel="icon" href="images/fashiup_logo.JPG" type="home-icon">
+</head>
+<body>
+        <header>
+            <div class="wrapper">
+              <p id="hamburger">☰</p>
+              <h1>Fashiup</h1>
+              <form action="/search" method="GET" class="search-form" >
+                <input type="text" name="q" placeholder="Search Products..." aria-label="Search" >
+                <button type="submit">🔍</button>
+              </form>
+              <a href="#" class="login"><img src="images/fashiup_login.JPG" alt="Login"></a>
+              <a href="#" class="favorite"><img src="images/fashiup_favorite.JPG" alt="Favorite"></a>
+              <a href="#" class="cart"><img src="images/fashiup_cart.JPG" alt="Cart"></a>
+            </div>
+            <nav id="main-nav">
+              <ul class="menu">
+                <li><a href="#">Home</a></li>
+
+                <li class="has-submenu">
+                    <a href="#">Shop</a>
+                     <ul class="child-menu">
+                       <li class="type">Product Types 
+                          <ul class="child-menu">
+                             <li><a href="#">Simple Products</a></li>
+                             <li><a href="#">Variable Products</a></li>
+                             <li><a href="#">Group Products</a></li>
+                             <li><a href="#">External/Affiliate Product</a></li>
+                             <li><a href="#">Sale Products</a></li>
+                             <li><a href="#">Upsell Products</a></li>
+                             <li><a href="#">Cross Sell Products</a></li>
+                          </ul>
+                       </li>
+                      </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#">Categories <em id="em">Sale</em></a>
+                      <ul class="child-menu">
+                        <li class="casual">Casual
+                          <ul class="second-child-menu">
+                             <li><a href="#">Active Casual</a></li>
+                             <li><a href="#">Easy Shirts</a></li>
+                             <li><a href="#">Outwears</a></li>
+                             <li><a href="#">Shoes</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+               </li>
+               <li class="has-submenu">
+                  <a href="#">Products <em id="hot">Hot</em></a>
+                    <ul class="child-menu" id="product">
+                       <li><a href="#" id="figure">
+                         <figure>
+                            <img src="images/fashiup_bag.jpg" alt="Bag">
+                            <figcaption>Dolce & Gabbana</figcaption>
+                            <p>$25</p>
+                            <p class="rate">★★★★☆</p>
+                            <p id="select">Select</Select></p>
+                         </figure>
+                       </a></li>
+                       <li><a href="#">
+                        <figure>
+                            <img src="images/fashiup_shoe.jpg" alt="Shoe">
+                            <figcaption>Nike Air Gold</figcaption>
+                            <p><em id="promo">$31</em> $30</p>
+                            <p class="rate">★★★★★</p>
+                            <p id="select">Select</Select></p>
+                        </figure>
+                       </a></li>
+                       <li><a href="#">
+                        <figure>
+                            <img src="images/fashiup_heels.jpg" alt="Heels">
+                            <figcaption>Lizoleor  Slip</figcaption>
+                            <p>$21</p>
+                            <p class="rate">★★★★★</p>
+                            <p id="select">Select</Select></p>
+                        </figure>
+                       </a></li>
+                       <li><a href="#">
+                        <figure>
+                            <img src="images/fashiup_leather.jpg" alt="Leather Pams">
+                            <figcaption>Men Ultralight-weight</figcaption>
+                            <p>$15</p>
+                            <p class="rate">★★★★★</p>
+                            <p id="select">Select</Select></p>
+                        </figure>
+                       </a></li>
+                   </ul>
+               </li>
+               <li class="has-submenu">
+                   <a href="#">Top Deals</a>
+                     <ul class="child-menu" id="shop">
+                       <li>Shop By
+                         <ul class="fourth-granny">
+                           <li><a href="#">
+                            <figure>
+                                <img src="images/fashiup_shirt.jpg" alt="Shirt">
+                                <figcaption>Girl Styles</figcaption>
+                            </figure>
+                           </a></li>
+                           <li><a href="#">
+                            <figure>
+                                <img src="images/fashiup_shoe.jpg" alt="Shoe">
+                                <figcaption>Shoes</figcaption>
+                            </figure>
+                           </a></li>
+                           <li><a href="#">
+                            <figure>
+                                <img src="images/fashiup_sunglass.jpg" alt="Sunglass">
+                                <figcaption>Google</figcaption>
+                            </figure>
+                           </a></li>
+                           <li><a href="#">
+                            <figure>
+                                <img src="images/fashiup_bag.jpg" alt="Hand Bag">
+                                <figcaption>Tote Bags</figcaption>
+                            </figure>
+                           </a></li>
+                         </ul>
+                       </li>
+                     </ul>
+              </li>
+              <li class="has-submenu">
+                <a href="#">Elements</a>
+                  <ul class="child-menu">
+                    <li><a href="#">Accordion</a></li>
+                    <li><a href="#">Icon Box</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">FAQ <em id="ask">Ask</em></a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Tabs <em id="new">New</em></a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+              </li>
+             </ul>
+           </nav>
+        </header>
+        <main>
+          <div class="hero-div">
+            <img src="images/cms-banner-3-1.jpg" alt="Hero Image">
+            <section>
+                <h1>Amazing Deals Only!</h1>
+                <div id="overflow">
+                  <p class="style">Latest Stylish Women's Clothes Collection</p>
+                  <p class="shop-now"><a href="#">Shop Now</a></p>
+                </div>
+            </section>
+            <div class="grid">
+              <section class="brand">
+                <img src="images/06-1.jpg" alt="Women's Collection" width="250" height="200">
+                <h2>Brands Summer Sale</h2>
+                <div id="overlay1">
+                  <p class="best">Best Stylish Women Clothes Collection</p>
+                  <p class="shop-now"><a href="#">Shop Now</a></p>
+                </div>
+              </section>
+              <figure class="first-image">
+                <img src="images/backpack.jpg" alt="Women's BackPack" width="250" height="200">
+                <figcaption>Casual College Backpack</figcaption>
+                <p><a href="#">Shop Now</a></p>
+              </figure>
+              <figure class="second-image">
+                <img src="images/fashiup_demo_files/02-19-315x378.jpg" alt="Flora Printed Regular" width="250" height="200">
+                <figcaption>Flora Printed Regular</figcaption>
+                <p><a href="#">Shop Now</a></p>
+              </figure>
+            </div>
+          </div>
+          <div class="scroll-hint-absolute">← Scroll</div>
+          <h3>Popular Products</h3>
+          <div class="heading">
+            <h4 id="new-arrival">New Arrival</h4>
+            <h4 id="featured">Featured</h4>
+            <h4 id="best-selling">Best Selling</h4>
+          </div>
+          <div class="product-container" id="product-container">
+          </div>
+          <div class="grid">
+              <section class="brand">
+                <img src="images/02-25.jpg" alt="Women's Collection" width="250" height="200">
+                <h2>Brands Summer Sale</h2>
+                <div id="overlay1">
+                  <p class="best">Best Women Stylish and Fashionable Outwears</p>
+                  <p class="shop-now"><a href="#">Shop Now</a></p>
+                </div>
+              </section>
+              <figure class="first-image">
+                <img src="images/02-18-315x378.jpg" alt="Women's Winter Muffler" width="250" height="200">
+                <figcaption>Winter Wrap</figcaption>
+                <p><a href="#">Shop Now</a></p>
+              </figure>
+              <figure class="second-image">
+                <img src="images/fashiup_heels.jpg" alt="Flora Heels" width="250" height="200">
+                <figcaption>Flora Heels</figcaption>
+                <p><a href="#">Shop Now</a></p>
+              </figure>
+            </div>
+          </div>
+          <div class="scroll-hint-absolute">← Scroll</div>
+          <div class="brands">
+            <figure>
+              <img src="images/1.png" alt="Natural Brand">
+            </figure>
+            <figure>
+              <img src="images/2.png" alt="Vintage">
+            </figure>
+            <figure>
+              <img src="images/3.png" alt="Boss">
+            </figure>
+          </div>
+          <h4 class="week-deals">Deals Of The Week!</h4>
+          <h5 class="hurry">💥 Hurry Up! Sale End In</h5>
+          <p id="sales"></p>
+          <div class="showcase">
+            <figure>
+              <img src="images/02-17-315x378.jpg" alt="Wrist watch">
+              <p><em id="promo">$18</em> $17</p>
+              <p class="rate">★★★★★</p>
+              <p id="select">Select</Select></p>
+            </figure>
+            <figure>
+              <img src="images/02-8-315x378.jpg" alt="Shoe">
+              <figcaption>Nike Air Gold</figcaption>
+              <p><em id="promo">$31</em>$30</p>
+              <p class="rate">★★★★★</p>
+              <p id="select">Select</Select></p>
+            </figure>
+          </div>
+          <article>
+            <img src="images/cms-banner-1-1.jpg" alt="Banner Image">
+            <h5>Men's T-Shirts & Sunglasses Fashion</h5>
+            <p>Fashion Graphic Printed Men Tshirt</p>
+            <p>Saturday Text with Sunglasses</p>
+            <p class="now"><a href="#">Shop Now</a></p>
+            <img class="banner" src="images/cms-banner-2.jpg" alt="Women banner">
+            <h5>Casual Printed Women Gray Top</h5>
+            <p>Regular Peplum Top Floral Print Square</p>
+            <p>Neck Half Sleeves</p>
+            <p class="now"><a href="#">Shop Now</a></p>
+          </article>
+          <div class="second-banner">
+            <img src="images/cms-banner-3-1.jpg" alt="Banner">
+          </div>
+          <section class="client">
+            <h6>Our Happy Clients</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ratione nisi itaque obcaecati 
+              architecto earum officia enim consequatur corporis rem.</p>
+            <figure>
+              <img src="images/01.png" alt="Client Image">
+              <figcaption>Lawrence L. Nones</figcaption>
+              <p>Senior Manager</p>
+            </figure>
+          </section>
+          <div class="newsletter">
+            <h6>Subcribe To Our Newsletter</h6>
+            <p>Subscribe to our latest newsletter to get news about special discounts & Upcoming Sales</p>
+            <form>
+              <label for="email">
+                <input type="email" id="email" name="email" placeholder="Email"> 
+              </label>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </main>
+        <footer>
+          <h1>FASHIUP</h1>
+          <p>Welcome to our store, where we pride ourselves on providing exceptional products and 
+            unparalleled customer service our store is a haven for those who appreciate quality, style,
+            and innovation.
+          </p>
+          <h2>Help</h2>
+          <ul>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Locality</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <p class="copyright">©2025 | All rights Reserved.</p>
+        </footer>
+</body>
+</html>

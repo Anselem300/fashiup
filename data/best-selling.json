@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Taylor Rolex",
+        "image": "./images/02-17-315x378.jpg",
+        "price": "26",
+        "rate": "★★★★★",
+        "supply": "Best Selling"
+    }, 
+    {
+        "name": "G7 Bag",
+        "image": "./images/11-315x378.jpg",
+        "price": "16",
+        "rate": "★★★★★",
+        "supply": "Best Selling"
+    },
+    {
+        "name": "Tech Glass",
+        "image": "./images/fashiup_sunglass.jpg",
+        "price": "12",
+        "rate": "★★★★★",
+        "supply": "Best Selling"
+    },
+    {
+        "name": "Vince Watch",
+        "image": "./images/02-4-315x378.jpg",
+        "price": "19",
+        "rate": "★★★★★",
+        "supply": "Best Selling"
+    }
+]

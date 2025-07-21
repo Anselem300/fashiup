@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Women Solid Round Neck",
+        "image": "./images/fashiup_shirt.jpg",
+        "price": "17",
+        "rate": "★★★★★",
+        "supply": "new arrival"
+    }, 
+    {
+        "name": "Dolce & Gabanna",
+        "image": "./images/fashiup_bag.jpg",
+        "price": "25",
+        "rate": "★★★★★",
+        "supply": "new arrival"
+    },
+    {
+        "name": "Casual College Backpack",
+        "image": "./images/backpack.jpg",
+        "price": "18",
+        "rate": "★★★★★",
+        "supply": "new arrival"
+    },
+    {
+        "name": "Vax Leather",
+        "image": "./images/fashiup_leather.jpg",
+        "price": "10",
+        "rate": "★★★★★",
+        "supply": "new arrival"
+    }
+]

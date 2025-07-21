@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Suzzy Watch",
+        "image": "./images/02-4-315x378.jpg",
+        "price": "23",
+        "rate": "★★★★★",
+        "supply": "Featured"
+    }, 
+    {
+        "name": "Nike Air Gold",
+        "image": "./images/02-8-315x378.jpg",
+        "price": "28",
+        "rate": "★★★★★",
+        "supply": "Featured"
+    },
+    {
+        "name": "Winter Wrap",
+        "image": "./images/02-18-315x378.jpg",
+        "price": "13",
+        "rate": "★★★★★",
+        "supply": "Featured"
+    },
+    {
+        "name": "Vinx Belt",
+        "image": "./images/02-28-315x378.jpg",
+        "price": "19",
+        "rate": "★★★★★",
+        "supply": "Featured"
+    }
+]
